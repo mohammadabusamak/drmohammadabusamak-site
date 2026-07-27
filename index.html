@@ -42,8 +42,11 @@
     margin: 2px 4px 2px 0;
   }
   @media (prefers-color-scheme: dark) { .tag { color: #ccc; background: #2a2a2c; } }
-  footer { margin-top: 4em; font-size: 0.85rem; color: #888; }
+  footer { margin-top: 4em; font-size: 0.85rem; color: #888; line-height: 1.5; }
   a { color: #0066cc; }
+  .header-row { display: flex; align-items: center; gap: 16px; }
+  .header-row img { width: 64px; height: 64px; flex-shrink: 0; border-radius: 12px; }
+  .logo-inline { width: 28px; height: 28px; vertical-align: middle; border-radius: 6px; margin-right: 8px; }
 </style>
 </head>
 <body>
@@ -66,28 +69,34 @@ development of digital diagnostic tools for periodontal classification.
 
 <h2>Perio360</h2>
 <div class="card">
-  <p>
-  <strong>Perio360</strong> is a clinical decision-support tool implementing the 2017 AAP/EFP World
-  Workshop classification of periodontal and peri-implant diseases. It walks a clinician through
-  periodontal diagnosis, other conditions, and peri-implant diagnosis, and produces a summary staging
-  and grading report.
-  </p>
-  <p>
-  The iOS app includes an auto-diagnosis feature: a clinician can upload a periodontal chart, and the
-  app extracts probing depths, clinical attachment loss, bleeding on probing, mobility, and furcation
-  involvement per tooth to propose a stage and grade, which the clinician then confirms.
-  </p>
+  <div class="header-row">
+    <img src="assets/perio360-logo.png" alt="Perio360 app logo">
+    <p style="margin: 0;">
+    <strong>Perio360</strong> is a clinical decision-support tool implementing the 2017 AAP/EFP World
+    Workshop classification of periodontal and peri-implant diseases. It walks a clinician through
+    periodontal diagnosis, other conditions, and peri-implant diagnosis, and produces a summary staging
+    and grading report.
+    </p>
+  </div>
   <p>
     <span class="tag">2017 AAP/EFP classification</span>
     <span class="tag">Periodontal staging &amp; grading</span>
     <span class="tag">Peri-implant diagnosis</span>
-    <span class="tag">AI-assisted chart reading</span>
   </p>
   <p><a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="support.html">Support</a></p>
 </div>
 
+<h2>Contact</h2>
+<p>
+Dr. Mohammad Abu-Samak Dental Inc.<br>
+Unit 49 – 10460 No. 3 Road<br>
+Richmond, BC V7A 4W5<br>
+Canada
+</p>
+<p><a href="mailto:moaasamak@gmail.com">moaasamak@gmail.com</a></p>
+
 <footer>
-  © 2026 Dr. Mohammad Abu-Samak Dental Inc. &middot; <a href="support.html">Contact</a>
+  © 2026 Dr. Mohammad Abu-Samak Dental Inc. &middot; <a href="support.html">Support</a> &middot; <a href="privacy.html">Privacy Policy</a>
 </footer>
 
 </body>

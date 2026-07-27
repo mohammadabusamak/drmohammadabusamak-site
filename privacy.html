@@ -19,20 +19,13 @@
   h1 { font-size: 1.5rem; }
   h2 { font-size: 1.05rem; margin-top: 2em; }
   .updated { color: #888; font-size: 0.9rem; }
-  .flag { background: #fff3cd; border: 1px solid #e0c168; border-radius: 6px; padding: 12px 16px; font-size: 0.9rem; color: #6b5300; margin-bottom: 2em; }
-  @media (prefers-color-scheme: dark) { .flag { background: #3a3010; border-color: #6b5300; color: #e8c96a; } }
   a { color: #0066cc; }
 </style>
 </head>
 <body>
 
-<div class="flag">
-  Draft — review before publishing. Confirm the data-handling statements below match how the app
-  actually processes chart uploads before this goes live.
-</div>
-
 <h1>Privacy Policy — Perio360</h1>
-<p class="updated">Last updated: [confirm date before publishing]</p>
+<p class="updated">Last updated: July 27, 2026</p>
 
 <p>
 This policy describes how Perio360 ("the app"), developed by Dr. Mohammad Abu-Samak Dental Inc.,
@@ -41,43 +34,48 @@ handles information when you use it.
 
 <h2>Information the app processes</h2>
 <p>
-Perio360 is a clinical decision-support tool for periodontal and peri-implant classification. When you
-use the auto-diagnosis feature, you may upload a periodontal chart (PDF or image). That file is
-converted to an image and sent to Google's Gemini Vision API to extract clinical measurements
-(probing depths, clinical attachment loss, bleeding on probing, mobility, furcation involvement) used
-to propose a stage and grade, which you then review and confirm.
-</p>
-<p>
-[Confirm: are uploaded charts stored on any server after processing, or discarded once the response is
-returned? Does the app request or store patient names, dates of birth, or other identifiers, or is chart
-data expected to be de-identified before upload?]
+Perio360 is a clinical decision-support tool for periodontal and peri-implant classification. You enter
+clinical measurements directly into the app (probing depths, clinical attachment loss, bleeding on
+probing, mobility, furcation involvement, and related findings) to generate a staging and grading
+summary. The app does not use the camera, does not accept photo or file uploads, and has no
+auto-diagnosis or chart-scanning feature.
 </p>
 
 <h2>Third-party processing</h2>
 <p>
-Chart images submitted through the auto-diagnosis feature are processed by Google's Gemini API,
-subject to Google's own privacy and data-handling terms. No chart data is sold or used for advertising.
+Perio360 does not transmit any data to a server or to any third-party service. All processing happens
+on your device.
 </p>
 
-<h2>Data you enter manually</h2>
+<h2>Data you enter</h2>
 <p>
-Periodontal, other-condition, and peri-implant diagnosis inputs entered directly in the app are used
-only to generate your session's staging/grading summary and report.
+Diagnosis inputs and saved cases are stored locally on your device only, using standard iOS on-device
+storage. The app does not ask for and does not store patient names, dates of birth, or other
+identifying information — only the clinical measurements needed to compute a stage and grade.
 </p>
 
 <h2>Data retention</h2>
-<p>[Confirm: how long is data retained on-device / in any backend, and can a user delete it?]</p>
+<p>
+Saved cases remain on-device until you delete them in the app or uninstall the app. Nothing is retained
+outside your device, since Perio360 has no backend server.
+</p>
 
 <h2>Your choices</h2>
 <p>
 Perio360 is intended for use by dental professionals as a decision-support aid, not a substitute for
-clinical judgment. Do not upload charts containing identifiable patient information unless your use
-of the app is consistent with your jurisdiction's privacy and health-information regulations.
+clinical judgment. As with any clinical record-keeping, use of the app should be consistent with your
+jurisdiction's privacy and health-information regulations.
 </p>
 
 <h2>Contact</h2>
 <p>
 Questions about this policy: <a href="mailto:moaasamak@gmail.com">moaasamak@gmail.com</a>
+</p>
+<p>
+Dr. Mohammad Abu-Samak Dental Inc.<br>
+Unit 49 – 10460 No. 3 Road<br>
+Richmond, BC V7A 4W5<br>
+Canada
 </p>
 
 <p><a href="index.html">&larr; Back to home</a></p>
